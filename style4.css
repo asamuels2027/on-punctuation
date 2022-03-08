@@ -1,0 +1,102 @@
+
+.text1{
+position: absolute;
+display: inline-block;
+left: 130px;
+top: 50px;
+font-family: Rosario, serif;
+font-size: 3rem; 
+color: white;
+text-align: center;
+
+
+}
+
+.text2{
+      top: 500px;
+      left: 880px;
+      position: absolute;
+      font-size: 1.5rem; 
+      color: white;
+      font-family: Rosario, serif;
+      border: 3px solid white;
+      text-align: center;
+      padding: 15px;
+      
+  }
+
+
+.text3{
+      top: 500px;
+      left: 120px;
+      position: absolute;
+      font-size: 1.5rem; 
+      color: white;
+      font-family: Rosario, serif;
+      border: 3px solid white;
+      text-align: center;
+      padding: 15px;
+      
+
+  }
+
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: red;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+  animation: color-change 1s ;
+  animation-duration: 1s;
+}
+
+a:active {
+  text-decoration: none;
+  color: red;
+  animation: color-change 2s;
+  animation-duration: 750ms;
+
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: white; }
+  100% { color: red; }
+}
+
+
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: #000000;
+  cursor:text;
+
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}

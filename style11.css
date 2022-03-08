@@ -1,0 +1,107 @@
+
+
+/* Clear floats after the columns */
+.text1{
+  position: absolute;
+  top:-300px;
+  left:5%;
+  width:45%;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 60px;
+ text-align: left;
+  line-height: 80px;
+  font-family: "Rosario", serif;
+  color:white;
+  animation: vertical 5s; 
+animation-iteration-count: 1; 
+  animation-play-state: paused;
+}
+
+@keyframes vertical{
+  from {top: -200%;}
+  to {top: 100000%;}
+}
+
+.text1:hover{
+  animation-play-state:paused; 
+  animation-play-state: running;  
+}
+
+.text2{
+  position: absolute;
+  top:-500px;
+  right:5%;
+  width:45%;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 60px;
+ text-align: right;
+  line-height: 80px;
+  font-family: "Rosario", serif;
+  color:white;
+  animation: vertical 10s; 
+animation-iteration-count: 1; 
+  animation-play-state: paused;
+}
+
+@keyframes vertical{
+  from {top: 800px;}
+  to {top: -1900px;}
+}
+
+.text2:hover{
+  animation-play-state:paused; 
+  animation-play-state: running;  
+}
+
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: red;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+ 
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.2;
+  background: #000000;
+  cursor:text;
+
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}

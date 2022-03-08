@@ -1,0 +1,87 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+
+.title1 {
+    color: #ffffff;
+    position: absolute;
+    width: 20vw;
+    height: 13vh;
+    left: 5vw;
+    top: 0%;
+    font-family: Rosario,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+  }
+
+
+.title1-2 {
+    color: #ffffff;
+    position: absolute;
+    width: 20vw;
+    height: 13vh;
+    left: 6vw;
+    top: 35%;
+    font-family: Rosario,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size:135px;
+  }
+
+.title1-3 {
+    color: #ffffff;
+    position: absolute;
+    width: 10vw;
+    height: 13vh;
+    right: 2px;
+    top: 35%;
+    font-family: Rosario,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size:135px;
+  }
+
+        a:link { 
+          text-decoration: none; 
+          color: #ffffff;
+          }
+
+
+        a:visited { 
+          text-decoration: none; 
+          color:#FF0000;
+          }
+        
+        a:hover{
+          color:#FF0000;
+        
+          }
+
+         a:active { 
+          color: #FF0000;
+          }
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: #000000;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}

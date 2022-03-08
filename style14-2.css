@@ -1,0 +1,80 @@
+
+.text1{
+position: absolute;
+width: 80%;
+height: 100%;
+left: 10%;
+top: 200px;
+font-family: Rosario, serif;
+font-style: normal;
+font-weight: normal;
+font-size: 90px;
+line-height: 0px;
+clear: both;
+display: inline-block;
+white-space: nowrap;
+color: #FFFFFF;
+display: inline-block;
+}
+
+
+
+.text2{
+position: absolute;
+width: 80%;
+height: 100%;
+left: 10%;
+top: 400px;
+font-family: Rosario, serif;
+font-style: normal;
+font-weight: normal;
+font-size: 90px;
+line-height: 0px;
+clear: both;
+display: inline-block;
+white-space: nowrap;
+color: #FFFFFF;
+display: inline-block;
+}
+
+
+.text3{
+      top: 570px;
+      left: 52%;
+      position: absolute;
+      font-size: 1.9rem; 
+      color: white;
+      font-family: "Rig Solid", serif;
+      
+      text-align: center;
+      
+  }
+
+
+
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: #000000;
+  cursor:text;
+
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
