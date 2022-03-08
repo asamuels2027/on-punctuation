@@ -1,0 +1,104 @@
+
+
+.text1{
+position: relative;
+width: 90%;
+height: 90%;
+left: 5%;
+top: 0px;
+font-family: Rosario, serif;
+font-weight: normal;
+font-size: 60px;
+line-height: 220.2%;
+color: #FFFFFF;
+text-align: center; 
+animation: vertical 10s; 
+animation-iteration-count: 1;  
+}
+
+@keyframes vertical{
+  from {top: 800px;}
+  to {top: -1900px;}
+}
+
+.text1:hover{
+  animation-play-state:paused;
+}
+
+a:link {
+  text-decoration: none;
+  color: red;
+}
+
+a:visited {
+  text-decoration: none;
+  color: red;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+ 
+}
+
+a:active {
+  text-decoration: none;
+  color: red;
+
+}
+
+
+
+p{
+  position: absolute;
+  right: -100px;
+  width: 200px;
+  height: 120px;
+  top: 720px;
+  font-family: Rosario, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 100px;
+  clear: both;
+  display: inline-block;
+
+  white-space: nowrap;
+  color: #FFFFFF;
+  display: inline-block;
+}
+
+
+ 
+
+
+/***** Slide Left *****/
+
+
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: #000000;
+  cursor:text;
+
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}

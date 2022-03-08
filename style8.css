@@ -1,0 +1,201 @@
+
+
+.paragraph1{
+  position: absolute;
+  top:0px;
+  left:30px;
+  width:1090px;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 30px;
+ text-align: left;
+  line-height: 80px;
+  
+}
+
+
+.mark{
+position: absolute;
+left: 1100px;
+top: -600px;
+font-family: RocknRoll One, serif;
+font-style: normal;
+font-weight: normal;
+font-size: 600px;
+text-align: center;
+color: #FF0000;
+animation-duration: 2s;
+animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+}
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+
+
+  
+      @keyframes slidein {
+        from {
+          margin-left: -100%;
+          width: 300%;
+        }
+      }
+
+        to {
+          margin-left: -10%;
+          width: 100%;
+        }
+
+
+
+
+
+
+
+.paragraph2{
+  position: absolute;
+  top:1500px;
+  right:20px;
+  width:80%;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 30px;
+ text-align: right;
+  
+}
+
+
+.mark2{
+position: absolute;
+right: 1300px;
+top: 900px;
+font-family: RocknRoll One, serif;
+font-style: normal;
+font-weight: normal;
+font-size: 550px;
+text-align: center;
+color: #FF0000;
+animation-duration: 2s;
+animation-name: slidein2;
+}
+
+@keyframes slidein2 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+}
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+}
+
+  
+      @keyframes slidein2 {
+        from {
+          margin-left: -100%;
+          width: 300%;
+        }
+      }
+
+        to {
+          margin-left: -10%;
+          width: 100%;
+        }
+
+
+.box{
+  width:1080px;
+  border: 15px solid green;
+  top:1800px;
+  right:360px;
+}
+
+
+h1{
+font-family: "Rosario", serif;
+font-weight: lighter;
+line-height: 125px;
+color: #FFFFFF;
+
+}
+
+p{
+font-family: "Rosario", serif;
+font-weight: lighter;
+line-height: 125px;
+color: #FFFFFF;
+
+}
+
+.font2{
+font-family:"Rig Solid", serif;
+font-style: normal;
+font-weight: lighter;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: red;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+  animation: color-change 1s ;
+  animation-duration: 1s;
+}
+
+a:active {
+  text-decoration: none;
+  color: red;
+  animation: color-change 2s;
+  animation-duration: 750ms;
+
+}
+
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: #000000;
+  cursor:text;
+
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
